@@ -21,11 +21,11 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Image
-              src="/logo.svg"
+              src="/ChatGPT Image 7 abr 2025, 21_07_03.png"
               alt="Apex Code Labs"
-              width={120}
-              height={40}
-              className="h-8 w-auto"
+              width={48}
+              height={48}
+              className="h-12 w-12"
             />
           </div>
 

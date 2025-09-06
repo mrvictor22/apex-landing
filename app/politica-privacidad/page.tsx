@@ -19,9 +19,9 @@ export default function PoliticaPrivacidadPage() {
               <Image
                 src="/logo.svg"
                 alt="Apex Code Labs"
-                width={120}
-                height={40}
-                className="h-8 w-auto filter brightness-0 invert"
+                width={150}
+                height={50}
+                className="h-10 w-auto filter brightness-0 invert"
               />
             </Link>
             <Link

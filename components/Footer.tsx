@@ -14,11 +14,11 @@ export default function Footer() {
             <div className="md:col-span-2">
               <div className="mb-6">
                 <Image
-                  src="/logo.svg"
+                  src="/logowh.svg"
                   alt="Apex Code Labs"
-                  width={120}
-                  height={40}
-                  className="h-8 w-auto filter brightness-0 invert"
+                  width={150}
+                  height={50}
+                  className="h-10 w-auto"
                 />
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
