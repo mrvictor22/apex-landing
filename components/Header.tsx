@@ -17,15 +17,15 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700">
       <div className="container-custom">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <div className="flex items-center">
             <Image
-              src="/ChatGPT Image 7 abr 2025, 21_07_03.png"
+              src="/logov5.svg"
               alt="Apex Code Labs"
-              width={48}
-              height={48}
-              className="h-12 w-12"
+              width={200}
+              height={200}
+              className="h-48 w-48"
             />
           </div>
 

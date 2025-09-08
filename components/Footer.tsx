@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-primary text-white">
       <div className="container-custom">
-        <div className="py-16">
+        <div className="py-8">
           <div className="grid md:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="md:col-span-2">
@@ -16,9 +16,9 @@ export default function Footer() {
                 <Image
                   src="/logowh.svg"
                   alt="Apex Code Labs"
-                  width={150}
-                  height={50}
-                  className="h-10 w-auto"
+                  width={180}
+                  height={180}
+                  className="h-44 w-44"
                 />
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
