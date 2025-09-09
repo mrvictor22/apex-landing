@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700">
       <div className="container-custom">
-        <div className="flex items-center justify-between h-24">
+        <div className="flex items-center justify-between h-20 sm:h-24 md:h-28 lg:h-32">
           {/* Logo */}
           <div className="flex items-center">
             <Image
@@ -25,7 +25,7 @@ export default function Header() {
               alt="Apex Code Labs"
               width={200}
               height={200}
-              className="h-48 w-48"
+              className="h-16 w-16 sm:h-20 sm:w-20 md:h-32 md:w-32 lg:h-48 lg:w-48"
             />
           </div>
 

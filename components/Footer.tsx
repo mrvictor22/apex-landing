@@ -18,7 +18,7 @@ export default function Footer() {
                   alt="Apex Code Labs"
                   width={180}
                   height={180}
-                  className="h-44 w-44"
+                  className="h-20 w-20 sm:h-24 sm:w-24 md:h-32 md:w-32 lg:h-44 lg:w-44"
                 />
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
