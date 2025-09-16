@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { generateOrganizationSchema, generateWebSiteSchema } from '@/lib/schema'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   title: 'Apex Code Labs - Impulsa tu empresa con IA, CRM, ERP y Facturación Electrónica',
@@ -80,6 +81,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         {children}
+        <Analytics />
       </body>
     </html>
   )
